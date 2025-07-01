@@ -38,7 +38,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: your-dockerhub-username/your-repo-name
+          images: kingxujw/subs-check
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
